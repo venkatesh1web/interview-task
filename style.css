@@ -1,0 +1,77 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.left{
+  vertical-align: top;
+  display: inline-block;
+  width:7% ;
+  height:600px; 
+  box-shadow: 200px 0px 500px rgb(228, 226, 226);
+  background-color:white;
+}
+.right{
+  display: inline-block;
+  width: 91%;
+  height: 600px;
+  border: white solid 1px;
+  background-color: rgba(223, 217, 219, 0.158);
+}
+.right .top{
+  height: 90px;
+  background-color: white;
+
+}
+.sub{
+  height: 90px;
+  text-align: center;
+  
+}
+.sub i{
+  padding-top: 20px;
+  color: rgb(146, 139, 139);
+}
+.sub:hover{
+  background: rgb(223, 218, 218);
+  color: black;
+  
+}
+.sub h5{
+  font-size: 18px;
+  color:rgb(146, 139, 139) ;
+}
+.insert{
+  width: 800px;
+  height: 30px;
+  margin-left: 200px;
+  margin-top: 50px;
+  padding-left: 10px;
+  border-radius: 7px;
+  border-style: hidden;
+  font-weight: bolder;
+}
+.or{
+  text-align: center;
+  margin-top: 20px;
+}
+.upload{
+  margin-left: 200px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border-style: hidden;
+  font-weight: bolder;
+}
+.videos {
+  display: inline-flex;
+  color: rgb(138, 130, 130);
+}
+.videos .one{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.videos .two{
+  margin-top: 35px;
+  margin-left: 8px;
+  font-size: 20px;
+}
